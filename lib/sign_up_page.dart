@@ -46,6 +46,7 @@ class _SignUpPageState extends State<SignUpPage> {
       setState(() {
         isLoading = false;
       });
+
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(
