@@ -1,13 +1,14 @@
 {
   "project_info": {
-    "project_number": "1015895029779",
-    "project_id": "fir-setup-e1481",
-    "storage_bucket": "fir-setup-e1481.firebasestorage.app"
+    "project_number": "552857989782",
+    "firebase_url": "https://mevazor-mfy-default-rtdb.firebaseio.com",
+    "project_id": "mevazor-mfy",
+    "storage_bucket": "mevazor-mfy.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1015895029779:android:459662868ec0ee65fae7e6",
+        "mobilesdk_app_id": "1:552857989782:android:146286ec5497e9593448b7",
         "android_client_info": {
           "package_name": "com.example.firebase_setup_g3"
         }
@@ -15,7 +16,26 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAsnVXGtxr8NcGkwdk48RQeFghPtZ6arZ8"
+          "current_key": "AIzaSyDoC4UNyAWr1Em-bOe5A9qoA8i9L-3hu3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552857989782:android:8935e9339bab1e773448b7",
+        "android_client_info": {
+          "package_name": "com.example.mevazor_mfy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoC4UNyAWr1Em-bOe5A9qoA8i9L-3hu3g"
         }
       ],
       "services": {

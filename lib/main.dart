@@ -11,22 +11,23 @@ void main() async {
   if (kIsWeb) {
     await Firebase.initializeApp(
       options: FirebaseOptions(
-        apiKey: "AIzaSyAiJ3ynDCCu8uhH_oCU2kNBw3ft-xyCFRk",
-        authDomain: "fir-setup-e1481.firebaseapp.com",
-        projectId: "fir-setup-e1481",
-        storageBucket: "fir-setup-e1481.firebasestorage.app",
-        messagingSenderId: "1015895029779",
-        appId: "1:1015895029779:web:a9e977aa77dde3c4fae7e6",
+        apiKey: "AIzaSyDOMIs2dT2L_ijqwXkbR2MiWIVu3NSM1AU",
+        authDomain: "mevazor-mfy.firebaseapp.com",
+        databaseURL: "https://mevazor-mfy-default-rtdb.firebaseio.com",
+        projectId: "mevazor-mfy",
+        storageBucket: "mevazor-mfy.firebasestorage.app",
+        messagingSenderId: "552857989782",
+        appId: "1:552857989782:web:afce6184a742a6f03448b7",
       ),
     );
   } else {
     await Firebase.initializeApp(
       options: FirebaseOptions(
-        apiKey: "AIzaSyAsnVXGtxr8NcGkwdk48RQeFghPtZ6arZ8",
-        projectId: "fir-setup-e1481",
-        storageBucket: "fir-setup-e1481.firebasestorage.app",
+        apiKey: "AIzaSyDoC4UNyAWr1Em-bOe5A9qoA8i9L-3hu3g",
+        projectId: "mevazor-mfy",
+        storageBucket: "mevazor-mfy.firebasestorage.app",
         messagingSenderId: "1015895029779",
-        appId: "1:1015895029779:android:459662868ec0ee65fae7e6",
+        appId: "1:552857989782:android:146286ec5497e9593448b7",
       ),
     );
   }
@@ -39,6 +40,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
